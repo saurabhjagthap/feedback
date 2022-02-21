@@ -41,4 +41,9 @@ const newUser = async (req, res, next) => {
   }
 };
 
+const getrequest = async (req, res, next) => {
+  res.status(200).json({ message: "give rating to our side" });
+};
+
 exports.newUser = newUser;
+exports.getrequest = getrequest;

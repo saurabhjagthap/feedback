@@ -19,4 +19,6 @@ Router.post(
   userController.newUser
 );
 
+Router.get("/", userController.getrequest);
+
 module.exports = Router;
